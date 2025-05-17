@@ -1,0 +1,97 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 10px;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  background: rgb(226, 180, 247);
+  margin: 0 auto;
+  padding: 35px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #007acc;
+}
+header p {
+  font-style: italic;
+  color: #555;
+  margin-top: 5px;
+}
+section {
+  margin-bottom: 25px;
+}
+h2 {
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  color: #007acc;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  margin-bottom: 8px;
+}
+.skills span {
+  display: inline-block;
+  background: #007acc;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+/* Button to toggle dark mode */
+#toggleTheme {
+  cursor: pointer;
+  background: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+}
+/* Dark theme styles */
+body.dark {
+  background: #121212;
+  color: #ddd;
+}
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: none;
+}
+body.dark h2, body.dark header h1 {
+  color: #66aaff;
+}
+body.dark .skills span {
+  background: #66aaff;
+}
+body.dark #toggleTheme {
+  background: #66aaff;
+  color: #121212;
+}
+.project_title,title
+{
+    padding-left: 20px;
+}
+.title
+{
+    padding-left: 10px;
+}
+.mark
+{
+    padding-left: 40px;
+}
