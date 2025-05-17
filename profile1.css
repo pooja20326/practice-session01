@@ -44,15 +44,7 @@ ul {
 ul li {
   margin-bottom: 8px;
 }
-.skills span {
-  display: inline-block;
-  background: #007acc;
-  color: white;
-  padding: 5px 10px;
-  margin: 5px 5px 0 0;
-  border-radius: 15px;
-  font-size: 0.9rem;
-}
+
 /* Button to toggle dark mode */
 #toggleTheme {
   cursor: pointer;
@@ -83,7 +75,7 @@ body.dark #toggleTheme {
   background: #66aaff;
   color: #121212;
 }
-.project_title,title
+.project_title
 {
     padding-left: 20px;
 }
